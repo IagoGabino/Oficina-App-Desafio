@@ -17,16 +17,20 @@ import styles from "./styles";
 
 import api from "../../services/api";
 
-export default function Proposals() {
+const Proposals = () => {
   const navigation = useNavigation();
   const [visible, setVisible] = useState(false);
   const [proposals, setProposals] = useState([]);
   const [description, setDescription] = useState("");
 
   async function loadProposals() {
-    const response = await api.get("/proposals");
+    try {
+      const response = await api.get("/proposals");
 
-    setProposals(response.data);
+      setProposals(response.data);
+    } catch (error) {
+      console.log("Error: " + error.message);
+    }
   }
 
   useEffect(() => {
@@ -55,7 +59,7 @@ export default function Proposals() {
 
       <Text style={styles.title}>Bem vindo!</Text>
       <Text style={styles.subtitle}>
-        Selecione um orçamento para ver sua descrição.
+        Clique em "Ver descrição" para visualizar a descrição de um orçamento.
       </Text>
 
       <FlatList
@@ -111,4 +115,6 @@ export default function Proposals() {
       </Modal>
     </View>
   );
-}
+};
+
+export default Proposals;

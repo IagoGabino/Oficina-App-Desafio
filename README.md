@@ -19,3 +19,5 @@ Em seguida, entre na pasta `oficinaapp`, que é onde está o código desenvolvid
 E então execute `npm start`. Com isso, uma página irá abrir no seu navegador, com um QR Code (tanto a páquina quando o código QR podem demorar alguns segundos para aparecer, por favor aguarde). Entre no aplicativo Expo Go (no celular) e escaneie esse QR Code. São necessários alguns minutos para que o JavaScript Bundle seja buildado e outros para que seja baixado.
 
 Depois disso o Oficina App estará executando em seu Expo Go.
+
+Obrigado 😃

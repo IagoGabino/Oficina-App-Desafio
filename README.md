@@ -20,4 +20,6 @@ Também é necessário ter o Expo Cli instalado em sua máquina, você encontra 
 
 Depois disso o Oficina App estará executando em seu Expo Go.
 
+**Observação:** Qualquer dúvida estou à disposição! *iagogabinogoncalves@gmail.com*
+
 Obrigado 😃

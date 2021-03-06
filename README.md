@@ -1,6 +1,9 @@
 # Oficina App
 
-Desafio Oficina App desenvolvido em JavaScript, com o framework React Native.
+Desafio Oficina App desenvolvido em JavaScript, com o framework React Native. O objetivo desse aplicativo é recuperar informações de uma API e apresentar o retorno de maneira agradável.
+
+## Organização em pastas no repositório
+Tudo que se refere ao código do Oficina App está na pasta `oficinaapp`. Na pasta `assets` estão o ícone e a Splash Screen do projeto. Na pasta `src` está o código em JavaScript, ou seja, as páginas (pasta `pages`), o serviço de conexão com a API (pasta `services`) e as rotas (arquivo `routes`). Na segunda pasta de assets, agora dentro de src, está a logo que foi utilizada nas páginas. 
 
 ## Pacotes utilizados
 
